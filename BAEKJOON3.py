@@ -25,4 +25,6 @@ if total == X:
 else:
     print("No")
 
-    
+N = int(input())
+print("long " * (N // 4) + "int")
+
