@@ -8,3 +8,5 @@
 #     A, B = map(int, input().split())
 #     print(A + B)
 
+n = int(input())
+print(n * (n + 1) // 2)
