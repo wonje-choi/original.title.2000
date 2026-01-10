@@ -13,3 +13,9 @@ numbers = list(map(int, input().split()))
 for num in numbers:
     if num < X:
         print(num, end=' ')
+
+N = int(input())
+numbers = list(map(int, input().split()))
+
+print(min(numbers), max(numbers))
+
