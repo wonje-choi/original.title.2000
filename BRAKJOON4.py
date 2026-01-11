@@ -62,3 +62,9 @@ not_submitted = sorted(all_students - submitted)
 
 for num in not_submitted:
     print(num)
+
+
+remainders = set(int(input()) % 42 for _ in range(10))
+print(len(remainders))
+
+
