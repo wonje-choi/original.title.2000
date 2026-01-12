@@ -14,3 +14,7 @@ for _ in range(T):
     print(S[0] + S[-1])
 
 
+c = input()
+print(ord(c))
+
+
