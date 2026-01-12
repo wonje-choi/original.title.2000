@@ -18,3 +18,8 @@ c = input()
 print(ord(c))
 
 
+N = int(input())
+S = input()
+print(sum(map(int, S)))
+
+
