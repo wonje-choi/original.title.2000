@@ -35,3 +35,6 @@ for _ in range(T):
     print(''.join(c * R for c in S))
 
 
+print(len(input().split()))
+
+
