@@ -42,3 +42,14 @@ A, B = input().split()
 print(max(int(A[::-1]), int(B[::-1])))
 
 
+S = input()
+dial = ['ABC', 'DEF', 'GHI', 'JKL', 'MNO', 'PQRS', 'TUV', 'WXYZ']
+total = 0
+for c in S:
+    for i, d in enumerate(dial):
+        if c in d:
+            total += i + 3
+            break
+print(total)
+
+
