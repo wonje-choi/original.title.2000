@@ -28,3 +28,10 @@ result = [S.find(chr(i)) for i in range(ord('a'), ord('z')+1)]
 print(*result)
 
 
+T = int(input())
+for _ in range(T):
+    R, S = input().split()
+    R = int(R)
+    print(''.join(c * R for c in S))
+
+
