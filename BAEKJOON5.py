@@ -53,3 +53,5 @@ for c in S:
 print(total)
 
 
+import sys
+print(sys.stdin.read())
