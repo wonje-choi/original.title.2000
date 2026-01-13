@@ -38,3 +38,7 @@ for _ in range(T):
 print(len(input().split()))
 
 
+A, B = input().split()
+print(max(int(A[::-1]), int(B[::-1])))
+
+
