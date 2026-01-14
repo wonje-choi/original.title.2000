@@ -38,3 +38,12 @@ else:
     print(chr(counts.index(max_count) + ord('A')))
 
 
+s = input()
+croatia = ['dz=', 'c=', 'c-', 'd-', 'lj', 'nj', 's=', 'z=']
+
+for c in croatia:
+    s = s.replace(c, '*')
+
+print(len(s))
+
+
