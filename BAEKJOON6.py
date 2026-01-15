@@ -47,3 +47,25 @@ for c in croatia:
 print(len(s))
 
 
+def is_group_word(word):
+    seen = set()
+    prev = ''
+    
+    for char in word:
+        if char != prev:
+            if char in seen:
+                return False
+            seen.add(char)
+        prev = char
+    
+    return True
+
+n = int(input())
+count = 0
+
+for _ in range(n):
+    word = input()
+    if is_group_word(word):
+        count += 1
+
+print(count)
