@@ -33,3 +33,5 @@ for col in range(max_len):
             result += lines[row][col]
 
 print(result)
+
+
