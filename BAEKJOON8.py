@@ -44,3 +44,12 @@ for _ in range(T):
     print(quarter, dime, nickel, penny)
 
 
+N = int(input())
+
+side = 2
+for _ in range(N):
+    side = (side - 1) * 2 + 1
+
+print(side * side)
+
+
