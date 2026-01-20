@@ -54,10 +54,23 @@
 # !=
 # or and not
 
-a=5  int
-b='5' str
-c=5.0  float
+# a=5  int
+# b='5' str
+# c=5.0  float
 
-print(b+b)
-print(a*b)
+# print(b+b)
+# print(a*b)
+
+# list
+# tuple
+# set
+# dictionary
+
+# a = int(input('숫자를 입력하세요'))
+
+# print (a+a)
+
+# num = 5.0
+
+# range(int(num))
 
