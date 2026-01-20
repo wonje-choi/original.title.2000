@@ -29,4 +29,20 @@
 # name = input('이름을 입력해주세요')
 
 
-type()
+# type()
+# int()
+# float()
+# complex()
+
+a=10 
+b=5 
+c=2 
+d=0.5
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)
