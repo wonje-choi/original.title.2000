@@ -34,15 +34,30 @@
 # float()
 # complex()
 
-a=10 
-b=5 
-c=2 
-d=0.5
+# a=10 
+# b=5 
+# c=2.0
+# d=0.5
 
-print(a+b)
-print(a-b)
+# print(b+c)
+# print(b-b)
+# print(b*b)
+# print(b/b)
+# print(b//c)
+# print(b%c)
+# print(b**c)
+
+# bool
+# >
+# <
+# ==
+# !=
+# or and not
+
+a=5  int
+b='5' str
+c=5.0  float
+
+print(b+b)
 print(a*b)
-print(a/b)
-print(a//b)
-print(a%b)
-print(a**b)
+
