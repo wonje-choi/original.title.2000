@@ -1,30 +1,32 @@
 
-print('안녕하세요.') #인사 코드
+# print('안녕하세요.') #인사 코드
 
-print('A')
+# print('A')
 
-'''
-여러줄의
-주석을
-처리하는
-방법입니다.
-'''
-print('B')
-print('C')
+# '''
+# 여러줄의
+# 주석을
+# 처리하는
+# 방법입니다.
+# '''
+# print('B')
+# print('C')
 
-print('hi~ Python')
-
-
-a = 10
-b = 5 
-
-print(a)
-print(b)
-b = 7
-print(a + b)
+# print('hi~ Python')
 
 
-print('hi', 'hello')
+# a = 10
+# b = 5 
 
-name = input('이름을 입력해주세요')
+# print(a)
+# print(b)
+# b = 7
+# print(a + b)
 
+
+# print('hi', 'hello')
+
+# name = input('이름을 입력해주세요')
+
+
+type()
