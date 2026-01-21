@@ -104,3 +104,4 @@ y = 5
 print (x, y, x + y)
 print ('3과 8의 합은 8이다')
 
+print ('{}과 {}의 합은 {}이다.' .format (x, y, x+y))
