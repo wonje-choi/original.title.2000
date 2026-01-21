@@ -82,3 +82,11 @@
 # print (type(b))
 # print (type(c))
 
+a, b, c = map (int, input ('a b c 값 입력').split())
+
+print ( a, b, c, a + b + c)
+
+a, b, c = map ( int, ['1', '2', '3'])
+
+print ( a, b, c, a + b + c)
+
