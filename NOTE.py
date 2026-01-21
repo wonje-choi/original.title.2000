@@ -98,10 +98,16 @@
 
 # a, b, c = map (int, input ('a b c 값 입력'). split())
 
-x = 3
-y = 5
+# x = 3
+# y = 5
 
-print (x, y, x + y)
-print ('3과 8의 합은 8이다')
+# print (x, y, x + y)
+# print ('3과 8의 합은 8이다')
 
-print ('{}과 {}의 합은 {}이다.' .format (x, y, x+y))
+# print ('{}과 {}의 합은 {}이다.' .format (x, y, x+y))
+
+# 2 * 5 > 2 + 5 and not 3 * 3 > 10
+
+print (round (3.33))
+print (round (3.66))
+print (round (3.66, 1))
