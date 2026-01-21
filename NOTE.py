@@ -123,3 +123,5 @@ print (y)
 
 print (max())
 print (min())
+
+print (sum())
