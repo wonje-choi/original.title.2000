@@ -111,3 +111,15 @@
 print (round (3.33))
 print (round (3.66))
 print (round (3.66, 1))
+
+print ( abs (3))
+
+print (pow(3, 2))
+print (3**2)
+
+x, y = divmod (7, 2)
+print (x)
+print (y)
+
+print (max())
+print (min())
