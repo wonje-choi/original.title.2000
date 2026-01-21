@@ -90,10 +90,17 @@
 
 # print ( a, b, c, a + b + c)
 
-text = input ('a b c 값 입력')
-text = text.split()
-a, b, c, = map (int, text) 
+# text = input ('a b c 값 입력')
+# text = text.split()
+# a, b, c, = map (int, text) 
 
-print (a, b, c, a + b + c)
+# print (a, b, c, a + b + c)
 
-a, b, c = map (int, input ('a b c 값 입력'). split())
+# a, b, c = map (int, input ('a b c 값 입력'). split())
+
+x = 3
+y = 5
+
+print (x, y, x + y)
+print ('3과 8의 합은 8이다')
+
