@@ -82,11 +82,18 @@
 # print (type(b))
 # print (type(c))
 
-a, b, c = map (int, input ('a b c 값 입력').split())
+# a, b, c = map (int, input ('a b c 값 입력').split())
 
-print ( a, b, c, a + b + c)
+# print ( a, b, c, a + b + c)
 
-a, b, c = map ( int, ['1', '2', '3'])
+# a, b, c = map ( int, ['1', '2', '3'])
 
-print ( a, b, c, a + b + c)
+# print ( a, b, c, a + b + c)
 
+text = input ('a b c 값 입력')
+text = text.split()
+a, b, c, = map (int, text) 
+
+print (a, b, c, a + b + c)
+
+a, b, c = map (int, input ('a b c 값 입력'). split())
