@@ -189,3 +189,14 @@
 # print ( text. rindex ( 'A' ))
 
 
+text1 = 'ABCabc123'
+text2 = '123'
+text3 = 'ABC'
+text4 = 'abc'
+
+print ( text1. isalpha())
+print ( text1. isdigit())
+print ( text1. isalnum())
+print ( text1. isupper())
+print ( text1. islower())
+
