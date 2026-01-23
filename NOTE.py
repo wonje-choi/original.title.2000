@@ -166,6 +166,14 @@
 # print (b)
 # print (c)
 
-text = 'abcde'
+# text = 'abcde'
+# print ( '/'. join (text))
 
-print ( '/'. join (text))
+
+# text = 'abcde A/B/C A.B.C'
+
+# print ( text. count ( 'a' ))
+# print ( text. count ( 'A' ))
+
+
+text = 'abcde'
