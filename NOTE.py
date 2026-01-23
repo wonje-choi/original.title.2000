@@ -160,8 +160,12 @@
 # text = 'abcde ABC ABC'
 # print (text. replace ( 'ABC', 'KKK'))
 
-text = 'abcde A/B/C A.B.C'
-a, b, c = text. split ( '/' )
-print (a)
-print (b)
-print (c)
+# text = 'abcde A/B/C A.B.C'
+# a, b, c = text. split ( '/' )
+# print (a)
+# print (b)
+# print (c)
+
+text = 'abcde'
+
+print ( '/'. join (text))
