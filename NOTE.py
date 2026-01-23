@@ -138,17 +138,30 @@
 # #print (text [2.0])
 
 
-text = 'abcde fgh ijk'
+# text = 'abcde fgh ijk'
 
-print (text [2 : 5])
-print (text [1 : 8])
-print (text [-5 : -1])
+# print (text [2 : 5])
+# print (text [1 : 8])
+# print (text [-5 : -1])
 
-print (text [5 : ])
-print (text [ : 5])
-print (text [ : ])
-print (text [0 : 8 : 2])
-print (text [1 : 8 : 2])
-print (text [8 : 0 : -1])
-print (text [8 : 5 : -1])
-print (text [ : : -1])
+# print (text [5 : ])
+# print (text [ : 5])
+# print (text [ : ])
+# print (text [0 : 8 : 2])
+# print (text [1 : 8 : 2])
+# print (text [8 : 0 : -1])
+# print (text [8 : 5 : -1])
+# print (text [ : : -1])
+
+
+# text = 'abcde {} {}'
+# print ( text. format ( 'ABC', 123))
+
+# text = 'abcde ABC ABC'
+# print (text. replace ( 'ABC', 'KKK'))
+
+text = 'abcde A/B/C A.B.C'
+a, b, c = text. split ( '/' )
+print (a)
+print (b)
+print (c)
