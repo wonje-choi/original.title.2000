@@ -176,7 +176,16 @@
 # print ( text. count ( 'A' ))
 
 
-text = '  abcde  '
-print ( text. strip ())
-print ( text. lstrip ())
-print ( text. rstrip ())
+# text = '  abcde  '
+# print ( text. strip ())
+# print ( text. lstrip ())
+# print ( text. rstrip ())
+
+
+# text = 'ABC ABC'
+# print ( text. find ( 'A' ))
+# print ( text. rfind ( 'A' ))
+# print ( text. index ( 'A' ))
+# print ( text. rindex ( 'A' ))
+
+
