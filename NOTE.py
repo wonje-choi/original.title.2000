@@ -176,4 +176,7 @@
 # print ( text. count ( 'A' ))
 
 
-text = 'abcde'
+text = '  abcde  '
+print ( text. strip ())
+print ( text. lstrip ())
+print ( text. rstrip ())
