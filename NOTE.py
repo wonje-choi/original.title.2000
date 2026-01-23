@@ -189,14 +189,25 @@
 # print ( text. rindex ( 'A' ))
 
 
-text1 = 'ABCabc123'
-text2 = '123'
-text3 = 'ABC'
-text4 = 'abc'
+# text1 = 'ABCabc123'
+# text2 = '123'
+# text3 = 'ABC'
+# text4 = 'abc'
 
-print ( text1. isalpha())
-print ( text1. isdigit())
-print ( text1. isalnum())
-print ( text1. isupper())
-print ( text1. islower())
+# print ( text1. isalpha ())
+# print ( text1. isdigit ())
+# print ( text1. isalnum ())
+# print ( text1. isupper ())
+# print ( text1. islower ())
 
+# text = 'ABCabc'
+# print ( text. upper ())
+# print ( text. lower ())
+
+
+y = '2026'
+m = '1'
+d = '23'
+print ( y. zfill(4))
+print ( m. zfill(2))
+print ( d. zfill(2))
