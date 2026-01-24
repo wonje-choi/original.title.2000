@@ -205,9 +205,23 @@
 # print ( text. lower ())
 
 
-y = '2026'
-m = '1'
-d = '23'
-print ( y. zfill(4))
-print ( m. zfill(2))
-print ( d. zfill(2))
+# y = '2026'
+# m = '1'
+# d = '23'
+# print ( y. zfill(4))
+# print ( m. zfill(2))
+# print ( d. zfill(2))
+
+
+# num = int ( input ('숫자하나 입력 : ') )
+
+# if num > 0 :
+#     print ( '{}은(는) 양수입니다.' .format (num) )
+
+
+num = int ( input ('숫자하나 입력 : ') )
+
+if num % 2 == 0 :
+    print ( '{}은(는) 짝수입니다.' .format (num) )
+else :
+    print ( '{}은(는) 홀수입니다.' .format (num) )
