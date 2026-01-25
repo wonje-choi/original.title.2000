@@ -236,11 +236,20 @@
 # elif age >= 20 :
 #     print ( '성인입니다')
 
-text = input ( '알파벳 입력 :' )
+# text = input ( '알파벳 입력 :' )
 
-if text.isupper () : 
-    print ( '대문자' )
-elif text.islower () : 
-    print ( '소문자' )
-else : 
-    print ( '대/소문자 구분 불가능' )
+# if text.isupper () : 
+#     print ( '대문자' )
+# elif text.islower () : 
+#     print ( '소문자' )
+# else : 
+#     print ( '대/소문자 구분 불가능' )
+
+print ( 'a가 0보다 같거나 크면 실행, 작으면 정지')
+
+a = int ( input ( 'a:' ))
+
+while a > = 0:
+    print ( '실행' )
+    a = int ( input ( 'a:' ))
+    
