@@ -253,7 +253,13 @@
 #     print ( '실행' )
 #     a = int ( input ( 'a:' ))
 
-a = 10
+# a = 10
 
-while a > 0:
-    print ( '실행' )
+# while a > 0:
+#     print ( '실행' )
+
+n = int ( input ( 'n:') )
+
+while n:
+    print ( n )
+    n = n - 1
