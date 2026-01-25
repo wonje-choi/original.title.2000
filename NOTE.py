@@ -258,8 +258,20 @@
 # while a > 0:
 #     print ( '실행' )
 
-n = int ( input ( 'n:') )
+# n = int ( input ( 'n:') )
 
-while n:
+# while n:
+#     print ( n )
+#     n = n - 1
+
+n = 1
+while n <= 10:
     print ( n )
-    n = n - 1
+    n = n + 1
+
+text = 'yes'
+
+while text == 'yes':
+    text = input ( 'yes 입력 시 반복' )
+
+print ( '종료' )
