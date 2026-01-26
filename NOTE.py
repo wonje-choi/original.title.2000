@@ -306,8 +306,12 @@
 #     print ( i )
 
 
-a, b = map(int, input ( 'a b:' ). split () )
+# a, b = map(int, input ( 'a b:' ). split () )
 
-for i in range ( a, b ) :
+# for i in range ( a, b ) :
+#     print ( i )
+
+n = int ( input ( 'n:') )
+
+for i in range ( n, n - 1, - 1 ):
     print ( i )
-
