@@ -313,21 +313,29 @@
 
 # n = int ( input ( 'n:') )
 
-# for i in range ( n, n - 1, - 1 ):
+# for i in range ( n, n - 1, - 1 ) :
 #     print ( i )
 
 
-age = int (input ( '나이 입력' ) )
+# age = int (input ( '나이 입력:' ) )
 
-if age <= 7:
-    print ( '유아입니다.' )
-elif age <= 19:
-    print ( '청소년입니다.' )
-    if age <= 13:
-        print ( '초등학생' )
-    elif age <= 16:
-        print ( '중학생' )
+# if age <= 7:
+#     print ( '유아입니다.' )
+# elif age <= 19:
+#     print ( '청소년입니다.' )
+#     if age <= 13:
+#         print ( '초등학생' )
+#     elif age <= 16:
+#         print ( '중학생' )
+#     else :
+#         print ( '고등학생' )
+# else :
+#     print ( '성인입니다' )
+
+
+n = int (input ( 'n:' ))
+for i in range ( 1, n + 1 ) :
+    if i % 3 == 0 :
+        print ( 'x' )
     else :
-        print ( '고등학생' )
-else :
-    print ( '성인입니다' )
+        print (i)
