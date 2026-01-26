@@ -293,4 +293,7 @@
 
 # print (list (range (5, 0, -1)))
 
-print (list (range (10, -11, -5)))
+# print (list (range (10, -11, -5)))
+
+for i in range ( 10 ) :
+    print ( i )
