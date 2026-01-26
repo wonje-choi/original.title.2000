@@ -291,4 +291,6 @@
 
 # print (list (range (3, 10, 3)))
 
-print (list (range (5, 0, -1)))
+# print (list (range (5, 0, -1)))
+
+print (list (range (10, -11, -5)))
