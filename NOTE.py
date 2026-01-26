@@ -285,9 +285,10 @@
 # print ( '종료' )
 
 
-print (list (range (0, 5)))
+# print (list (range (0, 5)))
 
+# print (list (range (1, 11)))
 
-print (list (range (1, 11)))
+# print (list (range (3, 10, 3)))
 
-print (list (range (3, 11)))
+print (list (range (5, 0, -1)))
