@@ -277,9 +277,14 @@
 # print ( '종료' )
 
 
-text = input ( 'e 또는 E 입력시 종료' )
+# text = input ( 'e 또는 E 입력시 종료' )
 
-while text != 'e' and text != 'E':
-    text = input ('e 또는 E 입력 시 종료')
+# while text != 'e' and text != 'E':
+#     text = input ('e 또는 E 입력 시 종료')
 
-print ( '종료' )
+# print ( '종료' )
+
+
+list (range (0, 5))
+
+
