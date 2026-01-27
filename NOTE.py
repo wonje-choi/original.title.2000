@@ -333,9 +333,21 @@
 #     print ( '성인입니다' )
 
 
-n = int (input ( 'n:' ))
-for i in range ( 1, n + 1 ) :
-    if i % 3 == 0 :
-        print ( 'x' )
-    else :
-        print (i)
+# n = int (input ( 'n:' ))
+# for i in range ( 1, n + 1 ) :
+#     if i % 3 == 0 :
+#         print ( 'x' )
+#     else :
+#         print (i)
+
+
+num1 = 0
+num2 = int (input ( 'n:' ) )
+
+while True :
+    num1 = num1 + 1
+    print ( num1 )
+    if num1 == num2:
+        break
+
+
