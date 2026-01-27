@@ -341,13 +341,16 @@
 #         print (i)
 
 
-num1 = 0
-num2 = int (input ( 'n:' ) )
+# num1 = 0
+# num2 = int (input ( 'n:' ) )
 
-while True :
-    num1 = num1 + 1
-    print ( num1 )
-    if num1 == num2:
-        break
+# while True :
+#     num1 = num1 + 1
+#     print ( num1 )
+#     if num1 == num2:
+#         break
 
 
+for i in range (1, 7):
+    for j in range (1, 7):
+        print (i, j)
