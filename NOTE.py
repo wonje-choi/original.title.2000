@@ -334,12 +334,12 @@
 #         pass
 #     print (i)
 
-n = int (input ('n:') )
+# n = int (input ('n:') )
 
-if n > 0:
-    pass
-else :
-    pass
+# if n > 0:
+#     pass
+# else :
+#     pass
 
 
 # age = int (input ( '나이 입력:' ) )
@@ -379,4 +379,6 @@ else :
 # for i in range (1, 7):
 #     for j in range (1, 7):
 #         print (i, j)
+
+
 
