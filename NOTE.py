@@ -317,6 +317,12 @@
 #     print ( i )
 
 
+for i in range (1, 11):
+    if i == 5:
+        continue
+    print (i)
+
+
 # age = int (input ( '나이 입력:' ) )
 
 # if age <= 7:
@@ -351,6 +357,7 @@
 #         break
 
 
-for i in range (1, 7):
-    for j in range (1, 7):
-        print (i, j)
+# for i in range (1, 7):
+#     for j in range (1, 7):
+#         print (i, j)
+
