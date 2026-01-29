@@ -381,4 +381,6 @@
 #         print (i, j)
 
 
+li = []
+li = list ()
 
