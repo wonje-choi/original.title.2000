@@ -416,4 +416,5 @@ max (num)
 
 num. reverse ()
 
-num. 
+num. sort ()
+num. sort (reverse = True)
