@@ -381,6 +381,11 @@
 #         print (i, j)
 
 
-li = []
-li = list ()
+# li = []
+# li = list ()
 
+list = ['a', 'b', 'c']
+
+list [0]
+list [1]
+list [2]
