@@ -384,8 +384,14 @@
 # li = []
 # li = list ()
 
-list = ['a', 'b', 'c']
+# li = ['a', 'b', 'c']
 
-list [0]
-list [1]
-list [2]
+# li[0]
+# li[1]
+# li[2]
+
+# li[2] = 'd'
+
+list = ['a', 'b', 'c', 'd', 'e']
+
+list.index ('c')
