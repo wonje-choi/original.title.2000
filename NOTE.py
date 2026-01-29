@@ -392,6 +392,9 @@
 
 # li[2] = 'd'
 
-list = ['a', 'b', 'c', 'd', 'e']
+li = ['a', 'b', 'c', 'd', 'e']
 
-list.index ('c')
+li. index ('c')
+
+li. append ('f')
+li. insert (0, 'aa')
