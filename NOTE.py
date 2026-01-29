@@ -410,5 +410,10 @@
 
 num = [1, 2, 3, 4, 5, 9, 7, 6, 8, 10]
 
-sun (num)
+sum (num)
 min (num)
+max (num)
+
+num. reverse ()
+
+num. 
