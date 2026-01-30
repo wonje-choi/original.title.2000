@@ -438,15 +438,16 @@
 # len (tu)
 # tu. count ('a')
 
-num = (5, 7, 9)
-n1, n2 n3 = num
+# num = (5, 7, 9)
+# n1, n2, n3 = num
 
-a = 'hello'
-b = 'world'
-(a, b) = (b, a)
+# a = 'hello'
+# b = 'world'
+# (a, b) = (b, a)
 
 li = ['a', 'b', 'c', 'd', 'e', 'f']
 tuple (li)
 
 tu = ('a', 'b', 'c')
 list (tu)
+
