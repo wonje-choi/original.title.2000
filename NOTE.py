@@ -408,13 +408,24 @@
 
 # li. count ('a')
 
-num = [1, 2, 3, 4, 5, 9, 7, 6, 8, 10]
+# num = [1, 2, 3, 4, 5, 9, 7, 6, 8, 10]
 
-sum (num)
-min (num)
-max (num)
+# sum (num)
+# min (num)
+# max (num)
 
-num. reverse ()
+# num. reverse ()
 
-num. sort ()
-num. sort (reverse = True)
+# num. sort ()
+# num. sort (reverse = True)
+
+
+tu = ()
+tu = tupie ()
+
+tu = ('a', 'b', 'c')
+tu [0]
+tu [1]
+tu [2]
+
+tu [2] = 'd'
