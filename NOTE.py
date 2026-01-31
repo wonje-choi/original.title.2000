@@ -467,3 +467,15 @@ len (a)
 sum (num)
 min (num)
 max (num)
+
+list (a)
+tuple (a)
+
+a = {1, 2, 3}
+b = {2, 3, 4}
+
+a & b
+a | b
+a - b
+a ^ b
+
