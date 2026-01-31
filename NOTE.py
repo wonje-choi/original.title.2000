@@ -452,10 +452,18 @@
 # list (tu)
 
 
-se = set ()
-se = {}
+# se = set ()
+# se = {}
 
-a = {2, 4, 6, 8}
-b = {2, 4, 2, 1, 2, 3}
+# a = {2, 4, 6, 8}
+# b = {2, 4, 2, 1, 2, 3}
 
-a = [0]
+# a = [0]
+
+a. add (5)
+a. remove (5)
+1 in a
+len (a)
+sum (num)
+min (num)
+max (num)
