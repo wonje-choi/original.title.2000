@@ -494,3 +494,10 @@ dic. clear ()
 'eng' in dic
 len (dic)
 
+dic. keys ()
+dic. valuse ()
+dic. items ()
+
+tuple (dic)
+list (dic)
+set (dic)
