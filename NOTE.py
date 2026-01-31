@@ -445,9 +445,11 @@
 # b = 'world'
 # (a, b) = (b, a)
 
-li = ['a', 'b', 'c', 'd', 'e', 'f']
-tuple (li)
+# li = ['a', 'b', 'c', 'd', 'e', 'f']
+# tuple (li)
 
-tu = ('a', 'b', 'c')
-list (tu)
+# tu = ('a', 'b', 'c')
+# list (tu)
 
+
+se = set ()
