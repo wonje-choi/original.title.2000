@@ -501,3 +501,9 @@ dic. items ()
 tuple (dic)
 list (dic)
 set (dic)
+
+li = ['ab', 'cd', 'ef']
+dict (li)
+
+li = [['a', 1], ['b', 2], ['c', 3]]
+dict (li)
