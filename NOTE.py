@@ -523,12 +523,13 @@
 # b = map (int, a)
 # c = list (b)
 
-num = list (map (int, input ('숫자 입력'). split()))
+# num = list (map (int, input ('숫자 입력'). split()))
 
-num. sort ()
+# num. sort ()
 
-print ('합 :', sum (num))
-print ('평균 :', sum (num) / len (num))
-print ('최소값 :', num [0])
-print ('최대값 :', num [len (num) - 1])
-print ('중간값 :', num [len (num) //])
+# print ('합 :', sum (num))
+# print ('평균 :', sum (num) / len (num))
+# print ('최소값 :', num [0])
+# print ('최대값 :', num [len (num) - 1])
+# print ('중간값 :', num [len (num) // 2])
+
