@@ -489,21 +489,25 @@
 
 # dic [0]
 
-del dic ['mat']
-dic. clear ()
-'eng' in dic
-len (dic)
+# del dic ['mat']
+# dic. clear ()
+# 'eng' in dic
+# len (dic)
 
-dic. keys ()
-dic. valuse ()
-dic. items ()
+# dic. keys ()
+# dic. valuse ()
+# dic. items ()
 
-tuple (dic)
-list (dic)
-set (dic)
+# tuple (dic)
+# list (dic)
+# set (dic)
 
-li = ['ab', 'cd', 'ef']
-dict (li)
+# li = ['ab', 'cd', 'ef']
+# dict (li)
 
-li = [['a', 1], ['b', 2], ['c', 3]]
-dict (li)
+# li = [['a', 1], ['b', 2], ['c', 3]]
+# dict (li)
+
+
+li1 = intput ('문자 입력'). split ()
+
