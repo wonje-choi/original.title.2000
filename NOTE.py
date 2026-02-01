@@ -518,3 +518,8 @@ li3. append (int (input ('숫자 입력')))
 li3. append (int (input ('숫자 입력')))
 li3. append (int (input ('숫자 입력')))
 
+li4 = list (map (int, input ('숫자 입력'). split ()))
+
+a = input ('숫자 입력'). split ()
+b = map (int, a)
+c = list (b)
