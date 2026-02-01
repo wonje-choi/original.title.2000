@@ -511,3 +511,5 @@
 
 li1 = intput ('문자 입력'). split ()
 
+li2 = list (input('문자 입력'))
+
