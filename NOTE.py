@@ -544,3 +544,8 @@ def cc ():
     n = int (input ('n'))
     print (n * 2)
     return n * 2
+
+
+def dd (x, y)
+    print (x * y)
+    return x * y
