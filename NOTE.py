@@ -536,3 +536,11 @@
 def aa ():
     print ('hi~')
 
+def bb (x):
+    for i in range (x):
+        print ('hello')
+
+def cc ():
+    n = int (input ('n'))
+    print (n * 2)
+    return n * 2
