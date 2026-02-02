@@ -533,3 +533,6 @@
 # print ('최대값 :', num [len (num) - 1])
 # print ('중간값 :', num [len (num) // 2])
 
+def aa ():
+    print ('hi~')
+
