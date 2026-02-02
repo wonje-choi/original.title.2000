@@ -549,3 +549,9 @@ def cc ():
 def dd (x, y)
     print (x * y)
     return x * y
+
+re1 = aa ()
+re2 = bb (3)
+re3 = cc ()
+re4 = dd (3, 5)
+
