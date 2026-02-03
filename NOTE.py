@@ -561,3 +561,9 @@ li = []
 for i in range (5):
     li. append (int (input ('숫자 입력')))
 
+for i in range (len (li)):
+    print (li[i])
+
+for i in li:
+    print (i)
+
