@@ -533,25 +533,31 @@
 # print ('최대값 :', num [len (num) - 1])
 # print ('중간값 :', num [len (num) // 2])
 
-def aa ():
-    print ('hi~')
+# def aa ():
+#     print ('hi~')
 
-def bb (x):
-    for i in range (x):
-        print ('hello')
+# def bb (x):
+#     for i in range (x):
+#         print ('hello')
 
-def cc ():
-    n = int (input ('n'))
-    print (n * 2)
-    return n * 2
+# def cc ():
+#     n = int (input ('n'))
+#     print (n * 2)
+#     return n * 2
 
 
-def dd (x, y)
-    print (x * y)
-    return x * y
+# def dd (x, y):
+#     print (x * y)
+#     return x * y
 
-re1 = aa ()
-re2 = bb (3)
-re3 = cc ()
-re4 = dd (3, 5)
+# re1 = aa ()
+# re2 = bb (3)
+# re3 = cc ()
+# re4 = dd (3, 5)
+
+
+li = []
+
+for i in range (5):
+    li. append (int (input ('숫자 입력')))
 
