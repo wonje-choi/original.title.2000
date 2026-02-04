@@ -599,10 +599,18 @@
 # random. sample (li, 3)
 # random. shuffle (li)
 
+# n = int(input ('n:'))
+# s = 0
+
+# for i in range (1, n + 1):
+#     s = s + i
+# print (s)
+
 n = int(input ('n:'))
-s = 0
+s = 1
 
 for i in range (1, n + 1):
-    s = s + i
-
+    s = s * i
 print (s)
+
+
