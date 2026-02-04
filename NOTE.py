@@ -556,29 +556,46 @@
 # re4 = dd (3, 5)
 
 
-li = []
+# li = []
 
-for i in range (5):
-    li. append (int (input ('숫자 입력')))
+# for i in range (5):
+#     li. append (int (input ('숫자 입력')))
 
-for i in range (len (li)):
-    print (li [i])
+# for i in range (len (li)):
+#     print (li [i])
 
-for i in li:
-    print (i)
+# for i in li:
+#     print (i)
 
-for i in range (len (li)):
-    if i % 2 == 0:
-        print (li [i])
+# for i in range (len (li)):
+#     if i % 2 == 0:
+#         print (li [i])
 
-up = []
-low = []
+# up = []
+# low = []
 
-for i in li:
-    if i. isupper():
-        up. append (i)
-    elif i. islower ():
-        low. append (i)
-print (up)
-print (low)
+# for i in li:
+#     if i. isupper():
+#         up. append (i)
+#     elif i. islower ():
+#         low. append (i)
+# print (up)
+# print (low)
+
+
+import math
+math. ceil (2.1)
+math. floor (2.1)
+math. factorial (10)
+math. sqrt (4)
+math. pi
+
+import random
+random. randint (1, 5)
+random. random ()
+
+li = ['a', 'b', 'c', 'd', 'e']
+random. choice (li)
+random. sample (li, 3)
+random. shuffle (li)
 
