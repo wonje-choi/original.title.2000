@@ -599,6 +599,7 @@
 # random. sample (li, 3)
 # random. shuffle (li)
 
-n = (0)
+n = int(input ('n:'))
+s = 0
 
 sum = 1, n
