@@ -632,3 +632,12 @@ if a % b == 0:
 else :
     print ('약수가 아닙니다')
 
+
+a = int(input ('a:'))
+b = int(input ('b:'))
+
+if b % a == 0:
+    print ('배수입니다.')
+else :
+    print ('배수가 아닙니다')
+
