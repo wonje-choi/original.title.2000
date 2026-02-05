@@ -656,16 +656,25 @@
 #         print (i)
 
 
-text = input ('text:')
-t = input ('t:')
+# text = input ('text:')
+# t = input ('t:')
 
-print (t in text)
+# print (t in text)
+
+# check = False
+# for i in text:
+#     if i == t:
+#         check = True
+
+# print (check)
+
+
+li = list (map (int, input ('li:'). split ()))
+n = int (input ('n:'))
 
 check = False
-for i in text:
-    if i == t:
+for i in li:
+    if i == n:
         check = True
 
 print (check)
-
-
