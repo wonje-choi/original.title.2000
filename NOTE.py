@@ -669,12 +669,36 @@
 # print (check)
 
 
-li = list (map (int, input ('li:'). split ()))
+# li = list (map (int, input ('li:'). split ()))
+# n = int (input ('n:'))
+
+# check = False
+# for i in li:
+#     if i == n:
+#         check = True
+
+# print (check)
+
+# print (n in li)
+
+
 n = int (input ('n:'))
 
-check = False
-for i in li:
-    if i == n:
-        check = True
+check = 0
+
+for i in range (1, n + 1):
+    if n % i ==0:
+        check = check + 1
 
 print (check)
+
+n = int (input ('n:'))
+
+li = []
+
+for i in range (1, n + 1):
+    if n % i ==0:
+        li. append (i)
+        
+print (len (li))
+
