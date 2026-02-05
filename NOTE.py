@@ -624,20 +624,27 @@
 # print (s)
 
 
-a = int(input ('a:'))
-b = int(input ('b:'))
+# a = int(input ('a:'))
+# b = int(input ('b:'))
 
-if a % b == 0:
-    print ('약수입니다.')
-else :
-    print ('약수가 아닙니다')
+# if a % b == 0:
+#     print ('약수입니다.')
+# else :
+#     print ('약수가 아닙니다')
 
 
-a = int(input ('a:'))
-b = int(input ('b:'))
+# a = int(input ('a:'))
+# b = int(input ('b:'))
 
-if b % a == 0:
-    print ('배수입니다.')
-else :
-    print ('배수가 아닙니다')
+# if b % a == 0:
+#     print ('배수입니다.')
+# else :
+#     print ('배수가 아닙니다.')
+
+
+n = int(input ('n:'))
+
+for i in range (1, n + 1):
+    if n % i == 0:
+        print (i)
 
