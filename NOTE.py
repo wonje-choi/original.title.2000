@@ -623,3 +623,12 @@
 
 # print (s)
 
+
+a = int(input ('a:'))
+b = int(input ('b:'))
+
+if a % b == 0:
+    print ('약수입니다.')
+else :
+    print ('약수가 아닙니다')
+
