@@ -649,8 +649,23 @@
 #         print (i)
 
 
-n = int(input ('n:'))
+# n = int(input ('n:'))
 
-for i in range (1, 101):
-    if i % n == 0:
-        print (i)
+# for i in range (1, 101):
+#     if i % n == 0:
+#         print (i)
+
+
+text = input ('text:')
+t = input ('t:')
+
+print (t in text)
+
+check = False
+for i in text:
+    if i == t:
+        check = True
+
+print (check)
+
+
