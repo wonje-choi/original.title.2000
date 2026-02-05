@@ -642,9 +642,15 @@
 #     print ('배수가 아닙니다.')
 
 
+# n = int(input ('n:'))
+
+# for i in range (1, n + 1):
+#     if n % i == 0:
+#         print (i)
+
+
 n = int(input ('n:'))
 
-for i in range (1, n + 1):
-    if n % i == 0:
+for i in range (1, 101):
+    if i % n == 0:
         print (i)
-
