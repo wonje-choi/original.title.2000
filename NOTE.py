@@ -682,23 +682,28 @@
 # print (n in li)
 
 
-n = int (input ('n:'))
+# n = int (input ('n:'))
 
-check = 0
+# check = 0
 
-for i in range (1, n + 1):
-    if n % i ==0:
-        check = check + 1
+# for i in range (1, n + 1):
+#     if n % i ==0:
+#         check = check + 1
 
-print (check)
+# print (check)
 
-n = int (input ('n:'))
+# n = int (input ('n:'))
 
-li = []
+# li = []
 
-for i in range (1, n + 1):
-    if n % i ==0:
-        li. append (i)
+# for i in range (1, n + 1):
+#     if n % i ==0:
+#         li. append (i)
         
-print (len (li))
+# print (len (li))
+
+text = list(input ('text'))
+
+print (text. count ('o'))
+print (text. count ('x'))
 
