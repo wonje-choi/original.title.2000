@@ -720,14 +720,27 @@
 # print (x_count)
 
 
-num = list (map (int, input ('num:'). split()))
+# num = list (map (int, input ('num:'). split()))
 
-avg = sum (num) / len (num)
-check = 0
-for i in num:
-    if i >= avg:
-        check = check + 1
+# avg = sum (num) / len (num)
+# check = 0
+# for i in num:
+#     if i >= avg:
+#         check = check + 1
     
-print (avg)
-print (check)
+# print (avg)
+# print (check)
+
+
+n = int (input ('n:'))
+
+check = 0
+for i in range (n, n + 1):
+    if n % i == 0:
+        check = check + 1
+
+if check == 2:
+    print (True)
+else :
+    print (False)
 
