@@ -767,9 +767,11 @@
 
 n = int(input ('n:'))
 
-while 
+a =3
 
+for i in range (n-1):
+    a = a + 5
 
-for i in range (3, n + ):
-    print (i)
+print (a)
+
 
