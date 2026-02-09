@@ -765,12 +765,22 @@
 #         li .append (n)
 
 
+# n = int(input ('n:'))
+
+# a =3
+
+# for i in range (n-1):
+#     a = a + 5
+
+# print (a)
+
+
 n = int(input ('n:'))
 
 a =3
 
 for i in range (n-1):
-    a = a + 5
+    a = a * 2
 
 print (a)
 
