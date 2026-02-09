@@ -764,3 +764,12 @@
 #     if check :
 #         li .append (n)
 
+
+n = int(input ('n:'))
+
+while 
+
+
+for i in range (3, n + ):
+    print (i)
+
