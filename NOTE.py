@@ -829,10 +829,18 @@
 #     print ('*' * (n - i))
 
 
-n = int(input ('n:'))
+# n = int(input ('n:'))
 
-for i in range (n):
-    print (' ' * (n - i - 1), end = '')
-    print ('*' * (i * 2 +1))
+# for i in range (n):
+#     print (' ' * (n - i - 1), end = '')
+#     print ('*' * (i * 2 +1))
+
+
+a = int(input ('a:'))
+b = int(input ('b:'))
+
+for i in range (1, a + 1):
+    for j in range (1, b + 1):
+        print (i , j)
 
 
