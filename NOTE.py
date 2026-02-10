@@ -838,9 +838,11 @@
 
 a = int(input ('a:'))
 b = int(input ('b:'))
+n = int(input ('n:'))
 
 for i in range (1, a + 1):
     for j in range (1, b + 1):
-        print (i , j)
+        if i + j == n:
+              print (i , j)
 
 
