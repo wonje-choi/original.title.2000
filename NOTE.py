@@ -836,13 +836,18 @@
 #     print ('*' * (i * 2 +1))
 
 
-a = int(input ('a:'))
-b = int(input ('b:'))
-n = int(input ('n:'))
+# a = int(input ('a:'))
+# b = int(input ('b:'))
+# n = int(input ('n:'))
 
-for i in range (1, a + 1):
-    for j in range (1, b + 1):
-        if i + j == n:
-              print (i , j)
+# for i in range (1, a + 1):
+#     for j in range (1, b + 1):
+#         if i + j == n:
+#               print (i , j)
 
+
+for i in range (2, 10):
+    for j in range (1, 10):
+        print ('{} * {} = {}'. format (i, j, i * j))
+    print ()
 
