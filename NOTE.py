@@ -785,15 +785,21 @@
 # print (a)
 
 
+# n = int(input ('n:'))
+
+# a = 1
+# b = 1
+
+# for i in range (n - 2):
+#     c = a + b
+#     a = b
+#     b = c
+
+# print (b)
+
+
 n = int(input ('n:'))
 
-a = 1
-b = 1
-
-for i in range (n - 2):
-    c = a + b
-    a = b
-    b = c
-
-print (b)
-
+for i in range (n):
+    print (' ' * i, end = '')
+    print ('*' * n)
