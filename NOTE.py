@@ -860,10 +860,20 @@
 #     print ()
 
 
+# text = input ('text')
+
+# for i in text:
+#     if i != ' ':
+#         print (i, end = '')
+
+
 text = input ('text')
 
 for i in text:
-    if i != ' ':
+    if i. isupper ():
+        print (i. lower (), end = '')
+    elif i. islower ():
+        print (i. upper (), end = '')
+    else :
         print (i, end = '')
-        
 
