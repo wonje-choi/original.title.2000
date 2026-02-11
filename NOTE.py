@@ -867,13 +867,26 @@
 #         print (i, end = '')
 
 
-text = input ('text')
+# text = input ('text')
 
-for i in text:
-    if i. isupper ():
-        print (i. lower (), end = '')
-    elif i. islower ():
-        print (i. upper (), end = '')
-    else :
-        print (i, end = '')
+# for i in text:
+#     if i. isupper ():
+#         print (i. lower (), end = '')
+#     elif i. islower ():
+#         print (i. upper (), end = '')
+#     else :
+#         print (i, end = '')
+
+
+name = ['김철수', '김영희', '홍길동', '이소놀', '최코딩']
+
+for i in name:
+    if '김' in i:
+        print (i)
+
+
+for i in name:
+    if i[0] == '김':
+        print (i)
+
 
