@@ -860,3 +860,10 @@
 #     print ()
 
 
+text = input ('text')
+
+for i in text:
+    if i != ' ':
+        print (i, end = '')
+        
+
