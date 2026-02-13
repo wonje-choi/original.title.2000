@@ -912,12 +912,18 @@
 # print (m)
 
 
-li = [1, 6, 4, 2, 10, 8, 7, 5, 9]
+# li = [1, 6, 4, 2, 10, 8, 7, 5, 9]
 
-n = int (input ('1 ~ 10'))
+# n = int (input ('1 ~ 10'))
 
-for i in range (len (li)):
-    if li [i] == n:
-        print (i)
-        break
+# for i in range (len (li)):
+#     if li [i] == n:
+#         print (i)
+#         break
+
+li = [1, 3, 5, 6, 8, 9, 13, 15, 17, 19]
+n = int (input ('1, 3, 5, 6, 8, 9, 13, 15, 17, 19 :'))
+
+s_index = 0
+e_index = len (li) - 1
 
