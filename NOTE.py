@@ -878,15 +878,24 @@
 #         print (i, end = '')
 
 
-name = ['김철수', '김영희', '홍김동', '이소놀', '김코딩']
+# name = ['김철수', '김영희', '홍김동', '이소놀', '김코딩']
 
-for i in name:
-    if '김' in i:
-        print (i)
+# for i in name:
+#     if '김' in i:
+#         print (i)
 
 
-for i in name:
-    if i[0] == '김':
-        print (i)
+# for i in name:
+#     if i[0] == '김':
+#         print (i)
 
+
+# li = list (map (int, input ('숫자 입력:'). split ()))
+
+m = li [0]
+
+for i in li:
+    if i < m:
+        m = i
+print (m)
 
