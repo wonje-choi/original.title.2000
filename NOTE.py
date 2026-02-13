@@ -893,22 +893,31 @@
 # li = list (map (int, input ('숫자 입력:'). split ()))
 
 
-li = [1, 2, 33, 4, 5]
+# li = [1, 2, 33, 4, 5]
 
-m = li [0]
+# m = li [0]
 
-for i in li:
-    if i < m:
-        m = i
-        print (m)
+# for i in li:
+#     if i < m:
+#         m = i
+#         print (m)
 
 
-m = li [0]
+# m = li [0]
 
-for i in li:
-    if i > m:
-        m = i
+# for i in li:
+#     if i > m:
+#         m = i
 
-print (m)
+# print (m)
 
+
+li = [1, 6, 4, 2, 10, 8, 7, 5, 9]
+
+n = int (input ('1 ~ 10'))
+
+for i in range (len (li)):
+    if li [i] == n:
+        print (i)
+        break
 
