@@ -897,5 +897,5 @@ m = li [0]
 for i in li:
     if i < m:
         m = i
-print (m)
+        print (m)
 
