@@ -921,19 +921,28 @@
 #         print (i)
 #         break
 
-li = [1, 3, 5, 6, 8, 9, 13, 15, 17, 19]
-n = int (input ('1, 3, 5, 6, 8, 9, 13, 15, 17, 19 :'))
+# li = [1, 3, 5, 6, 8, 9, 13, 15, 17, 19]
+# n = int (input ('1, 3, 5, 6, 8, 9, 13, 15, 17, 19 :'))
 
-s_index = 0
-e_index = len (li) - 1
+# s_index = 0
+# e_index = len (li) - 1
 
-while s_index <= e_index:
-    m_index = (s_index + e_index)  // 2
-    if n < li [m_index]:
-        e_index = m_index - 1
-    elif n > li [m_index]:
-        s_index = m_index + 1
-    else :
-        print (m_index)
-        break
+# while s_index <= e_index:
+#     m_index = (s_index + e_index)  // 2
+#     if n < li [m_index]:
+#         e_index = m_index - 1
+#     elif n > li [m_index]:
+#         s_index = m_index + 1
+#     else :
+#         print (m_index)
+#         break
 
+
+li = [8, 6, 4, 1, 2, 3, 5 , 10, 9, 7]
+
+for i in range (len (li)):
+    m_index = i
+    for j in range (i, len (li)):
+        if li [j] < li [m_index]:
+            m_index = j
+    
