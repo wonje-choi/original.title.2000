@@ -37,3 +37,4 @@ def timer(minutes=30, extra_seconds=30):
 if __name__ == "__main__":
     # Quick test values: 10 seconds countdown + 5 seconds overtime
     timer(minutes=10 / 60, extra_seconds=5)
+
