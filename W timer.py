@@ -3,14 +3,17 @@ import time
 
 def timer(minutes=30):
     total_seconds = minutes * 60
-    print(f"⏱ {minutes}분 타이머 시작!")
+    print(f"⏱ {minutes}분 타이머 시작! (중지: Ctrl+C)")
 
-    for remaining in range(total_seconds, 0, -1):
-        mins, secs = divmod(remaining, 60)
-        print(f"\r남은 시간: {mins:02d}:{secs:02d}", end="", flush=True)
-        time.sleep(1)
+    try:
+        for remaining in range(total_seconds, 0, -1):
+            mins, secs = divmod(remaining, 60)
+            print(f"\r남은 시간: {mins:02d}:{secs:02d}", end="", flush=True)
+            time.sleep(1)
+        print("\n\n🔔 타이머 종료!")
 
-    print("\n\n🔔 타이머 종료!")
+    except KeyboardInterrupt:
+        print("\n\n⏹ 타이머가 중지되었습니다.")
 
-timer(30)
+timer(1)
 
