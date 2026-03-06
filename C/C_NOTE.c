@@ -64,21 +64,21 @@
 //     return 0;
 // }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main (void) {
-    int num;
-    char name[10];
-    int select;
-    printf("name: ");
-    scanf("%s", name);
-    printf("name is [%s]. \n yes 1, no 2", name);
-    scanf("%d", &select);
-    if (select == 1) {  
-        printf("%s yes", name);
-    } else {
-        printf("%s no", name);
-    }
-        return 0;
-}
+// int main (void) {
+//     int num;
+//     char name[10];
+//     int select;
+//     printf("name: ");
+//     scanf("%s", name);
+//     printf("name is [%s]. \n yes 1, no 2", name);
+//     scanf("%d", &select);
+//     if (select == 1) {  
+//         printf("%s yes", name);
+//     } else {
+//         printf("%s no", name);
+//     }
+//         return 0;
+// }
 
