@@ -41,12 +41,25 @@
 //     printf("x: %c, y: %c, z: %d\n", x, y, z);
 // }
 
+// #include <stdio.h>
+
+// main () {
+//     int num;
+//     puts ("Enter a number:");
+//     scanf("%d", &num); 
+//     printf("You entered: %d\n", num);
+// }
+
 #include <stdio.h>
 
-main () {
+int main (void) {
     int num;
     puts ("Enter a number:");
-    scanf("%d", &num); 
-    printf("You entered: %d\n", num);
+    scanf("%d", &num);
+    if (num%2 == 0) {
+        printf("짝수");
+    } else {
+        printf("홀수");
+    }
+    return 0;
 }
-
