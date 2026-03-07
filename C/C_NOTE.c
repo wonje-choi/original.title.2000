@@ -1,4 +1,4 @@
-
+﻿
 // #include <stdio.h>
 
 // int main(){
@@ -57,9 +57,9 @@
 //     puts ("Enter a number:");
 //     scanf("%d", &num);
 //     if (num%2 == 0) {
-//         printf("짝수");
+//         printf("吏앹닔");
 //     } else {
-//         printf("홀수");
+//         printf("???);
 //     }
 //     return 0;
 // }
@@ -99,14 +99,88 @@
 //     }
 // }
 
+// #include <stdio.h>
+
+// main (){
+//     int value;
+//     printf("10?댄븯???レ옄硫?臾댄븳諛섎났 \n");
+//     do {
+//         scanf ("%d", &value);
+//     } while (value <=10);
+// printf("10蹂대떎 ???レ옄?낅땲??");    
+// }
+
+// #include <stdio.h>
+
+// main (){
+//     int i;
+//     for (i = 0; i < 10; i++) {
+//         printf("%d\n", i);
+//     }
+// }
+
+// #include <stdio.h>
+
+// main(){
+//     int i;
+//     int sum = 0;
+//     for (i = 0; i < 10; i++) {
+//         printf("%d \n", sum = sum + i);
+//     }
+//     printf ("\n 1遺??10源뚯? ?섏쓽 ?? %d", sum);
+// }
+
+// #include <stdio.h>
+
+// main (){
+//     int i, n, sum = 0;
+//     printf("Enter a number: ");
+//     scanf("%d", &n);
+//     for (i = 0; i < 10; i++) {
+//         printf("%d \n", sum = sum + i);
+//     }
+//     printf ("\n 1遺??%d源뚯? ?섏쓽 ?? [%d]", n, sum);
+// }
+
+// #include <stdio.h>
+
+// main (){
+//     int i, x, n;
+//     printf("諛섎났?섍퀬 ?띠? ?レ옄???: ");
+//     scanf("%d", &x);
+//     printf("紐?踰?諛섎났?좉퉴???: ");
+//     scanf("%d", &n);
+//     for (i = 0; i < n; i++) {
+//         printf("%d \n", x);
+//     }
+//     printf ("\n %d瑜?%d踰?諛섎났?덉뒿?덈떎.", x, n);
+// }
+
+// #include <stdio.h>
+
+// main (){
+//     int i, sum;
+//     sum = 0;
+//     for (i=1; i<=10; i++){
+//         if (i%2==0)
+//         sum = sum + i;
+//     }
+//     printf ("吏앹닔????: %d\n", sum);
+// }
+
 #include <stdio.h>
 
-main (){
-    int value;
-    printf("10이하의 숫자면 무한반복 /n");
-    do {
-        scanf ("%d", &value);
-    } while (value <=10);
-printf("10보다 큰 숫자입니다.");    
+int main(void){
+    int i, n, m, sum;
+    sum = 0;
+    puts ("泥?踰덉㎏ ?レ옄 ?낅젰:");
+    scanf("%d", &n);
+    puts ("留덉?留??レ옄 ?낅젰:");
+    scanf("%d", &m);
+    for (i=n; i<=m; i++){
+        if (i%2!=0)
+        sum = sum + i;
+    }
+    printf ("%d遺??%d源뚯?????섏쓽 ??: %d\n", n, m, sum);
+    return 0;
 }
-
