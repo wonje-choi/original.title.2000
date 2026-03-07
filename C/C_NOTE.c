@@ -1,4 +1,4 @@
-﻿
+
 // #include <stdio.h>
 
 // int main(){
@@ -57,9 +57,9 @@
 //     puts ("Enter a number:");
 //     scanf("%d", &num);
 //     if (num%2 == 0) {
-//         printf("吏앹닔");
+//         printf("짝수");
 //     } else {
-//         printf("???);
+//         printf("홀수");
 //     }
 //     return 0;
 // }
@@ -103,11 +103,11 @@
 
 // main (){
 //     int value;
-//     printf("10?댄븯???レ옄硫?臾댄븳諛섎났 \n");
+//     printf("10이하의 숫자면 무한반복 \n");
 //     do {
 //         scanf ("%d", &value);
 //     } while (value <=10);
-// printf("10蹂대떎 ???レ옄?낅땲??");    
+// printf("10보다 큰 숫자입니다.");    
 // }
 
 // #include <stdio.h>
@@ -127,7 +127,7 @@
 //     for (i = 0; i < 10; i++) {
 //         printf("%d \n", sum = sum + i);
 //     }
-//     printf ("\n 1遺??10源뚯? ?섏쓽 ?? %d", sum);
+//     printf ("\n 1부터 10까지 수의 합: %d", sum);
 // }
 
 // #include <stdio.h>
@@ -139,21 +139,21 @@
 //     for (i = 0; i < 10; i++) {
 //         printf("%d \n", sum = sum + i);
 //     }
-//     printf ("\n 1遺??%d源뚯? ?섏쓽 ?? [%d]", n, sum);
+//     printf ("\n 1부터 %d까지 수의 합: [%d]", n, sum);
 // }
 
 // #include <stdio.h>
 
 // main (){
 //     int i, x, n;
-//     printf("諛섎났?섍퀬 ?띠? ?レ옄???: ");
+//     printf("반복하고 싶은 숫자는 ?: ");
 //     scanf("%d", &x);
-//     printf("紐?踰?諛섎났?좉퉴???: ");
+//     printf("몇 번 반복할까요 ?: ");
 //     scanf("%d", &n);
 //     for (i = 0; i < n; i++) {
 //         printf("%d \n", x);
 //     }
-//     printf ("\n %d瑜?%d踰?諛섎났?덉뒿?덈떎.", x, n);
+//     printf ("\n %d를 %d번 반복했습니다.", x, n);
 // }
 
 // #include <stdio.h>
@@ -165,22 +165,56 @@
 //         if (i%2==0)
 //         sum = sum + i;
 //     }
-//     printf ("吏앹닔????: %d\n", sum);
+//     printf ("짝수의 합 : %d\n", sum);
 // }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main(void){
-    int i, n, m, sum;
-    sum = 0;
-    puts ("泥?踰덉㎏ ?レ옄 ?낅젰:");
-    scanf("%d", &n);
-    puts ("留덉?留??レ옄 ?낅젰:");
-    scanf("%d", &m);
-    for (i=n; i<=m; i++){
-        if (i%2!=0)
-        sum = sum + i;
-    }
-    printf ("%d遺??%d源뚯?????섏쓽 ??: %d\n", n, m, sum);
-    return 0;
-}
+// main (void){
+//     int i, n, m, sum;
+//     sum = 0;
+//     puts ("첫 번째 숫자 입력:");
+//     scanf("%d", &n);
+//     puts ("마지막 숫자 입력:");
+//     scanf("%d", &m);
+//     for (i=n; i<=m; i++){
+//         if (i%2!=0)
+//         sum = sum + i;
+//     }
+//     printf ("%d부터 %d까지의 홀수의 합 : %d\n", n, m, sum);
+// }
+
+// #include <stdio.h>
+
+// main (){
+//     int i, n;
+//     printf("몇 단을 할까요?: ");
+//     scanf("%d", &n);
+//     for (i=1; i<=10; i++){
+//         printf("%d x %d = %d\n", n, i, n*i);
+//     }
+// }
+
+
+// #include <stdio.h>
+
+// main (){
+//     int i, j;
+//     for (i=1; i<=10; i++){
+//         for (j=1; j<=10; j++){
+//             printf("%d x %d = %d\n", i, j, i*j);
+//         }
+//     }
+// }
+
+// #include <stdio.h>
+// #include <windows.h>
+
+// main (){
+//     int i;
+//     for (i=1; i<11; i++){
+//         printf("*\n");
+//         Sleep(10);
+//     }
+// }
+
