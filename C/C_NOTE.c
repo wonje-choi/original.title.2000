@@ -82,3 +82,31 @@
 //         return 0;
 // }
 
+// #include <stdio.h>
+
+// main() {
+//     int x;
+//     puts ("select number: 1, 2, 3");
+//     scanf("%d", &x);
+//     if (x == 1) {
+//         printf("you select 1");
+//     } else if (x == 2) {
+//         printf("you select 2");
+//     } else if (x == 3) {
+//         printf("you select 3");
+//     } else {
+//         printf("you select wrong number");
+//     }
+// }
+
+#include <stdio.h>
+
+main (){
+    int value;
+    printf("10이하의 숫자면 무한반복 /n");
+    do {
+        scanf ("%d", &value);
+    } while (value <=10);
+printf("10보다 큰 숫자입니다.");    
+}
+
