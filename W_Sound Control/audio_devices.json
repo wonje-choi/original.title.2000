@@ -1,0 +1,46 @@
+{
+  "output_devices": [
+    {
+      "default_multimedia": true,
+      "name": "스피커(High Definition Audio Device)",
+      "id": "{0.0.0.00000000}.{0dde9ae9-88c3-4f64-98b1-cd57d53f8fe2}"
+    },
+    {
+      "default_multimedia": false,
+      "name": "이어폰(High Definition Audio Device)",
+      "id": "{0.0.0.00000000}.{51cca44f-9e00-44e9-ac99-558462b066b5}"
+    },
+    {
+      "default_multimedia": false,
+      "name": "스피커(2- ABKO N550)",
+      "id": "{0.0.0.00000000}.{723130b9-1173-4c90-812e-38deb9bf8d2b}"
+    },
+    {
+      "default_multimedia": false,
+      "name": "HDMI(NVIDIA High Definition Audio)",
+      "id": "{0.0.0.00000000}.{7fa9cce4-c5ed-4ea3-af7a-8e0620f17022}"
+    },
+    {
+      "default_multimedia": false,
+      "name": "디지털 오디오(HDMI)(3- High Definition Audio Device)",
+      "id": "{0.0.0.00000000}.{a338bb5c-8b6a-4450-96a1-f49d0ac0e226}"
+    }
+  ],
+  "input_devices": [
+    {
+      "default_multimedia": false,
+      "name": "마이크(High Definition Audio Device)",
+      "id": "{0.0.1.00000000}.{15d2c7f0-e3c1-4f56-a263-0b64a48019a6}"
+    },
+    {
+      "default_multimedia": true,
+      "name": "마이크(2- ABKO N550)",
+      "id": "{0.0.1.00000000}.{3ec6b11b-b0eb-4a02-85c3-5b115ed9d18c}"
+    },
+    {
+      "default_multimedia": false,
+      "name": "이어폰(High Definition Audio Device)",
+      "id": "{0.0.1.00000000}.{81c3c34c-05af-4a1a-bfa6-6305f52be0a6}"
+    }
+  ]
+}
