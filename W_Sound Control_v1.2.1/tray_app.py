@@ -133,7 +133,7 @@ if __name__ == "__main__":
     icon = pystray.Icon(
         "W_Sound_Control",
         create_icon_image(),
-        "W_Sound Control v1.2.0",
+        "W_Sound Control v1.2.1",
         build_menu(),
     )
 
